@@ -17,7 +17,7 @@
             ));
         }
 
-        echo json_encode(array('data' => $result));
+        echo json_encode('data' => $result);
     }
 
 
